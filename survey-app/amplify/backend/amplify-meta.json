@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-feedbacksurveyapplic-staging-163829-authRole",
+      "UnauthRoleArn": "arn:aws:iam::910227969302:role/amplify-feedbacksurveyapplic-staging-163829-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::910227969302:role/amplify-feedbacksurveyapplic-staging-163829-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-feedbacksurveyapplic-staging-163829-deployment",
+      "UnauthRoleName": "amplify-feedbacksurveyapplic-staging-163829-unauthRole",
+      "StackName": "amplify-feedbacksurveyapplic-staging-163829",
+      "StackId": "arn:aws:cloudformation:us-east-1:910227969302:stack/amplify-feedbacksurveyapplic-staging-163829/e46ae700-8f9e-11ee-aa46-1204780720eb",
+      "AmplifyAppId": "d166ouf0xh8fme"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-feedbacksurveyapplic-staging-163829-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2024-01-31T17:11:39.295Z",
+      "output": {},
+      "lastPushDirHash": "ycMf4FlR0AU9TThdysEhIwVCFYQ="
+    }
+  }
+}
